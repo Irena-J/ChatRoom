@@ -14,7 +14,7 @@
 
 + 前端：基于 Ajax、JSON 的数据请求和解析
 
-+ 后端：使用 Servlet 处理 HTTP 、websocket 请求；Gson库完成Java 对象和 JSON 数据之间的准换
++ 后端：使用 Servlet 处理 HTTP 、websocket 请求；Gson库完成Java 对象和 JSON 数据之间的转换
 
   
   
