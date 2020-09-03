@@ -86,14 +86,14 @@ C controller 核心业务逻辑
 + nickName                      // 昵称，页面上显示的
 + lastLogout                     // 表示上次退出的时间. 用来实现历史记录功能
 
-![image-20200826183430137](D:/typora/appdata/image-20200826183430137.png)
+![image-20200826183430137](img/image-20200826183430137.png)
 
 频道表
 
-+ channelId                    primary key
++ channelId                    primary keyimg
 + channelName       
 
-![image-20200826183452608](D:/typora/appdata/image-20200826183452608.png)
+![image-20200826183452608](D:/typora/appdata/image-20200826183452608-1599127431000.png)
 
 消息表：实现消息历史记录
 
@@ -101,9 +101,9 @@ C controller 核心业务逻辑
 + userId
 + channelId
 + content                       
-+ sendTime
++ sendTimeimg
 
-![image-20200826183521257](D:/typora/appdata/image-20200826183521257.png)
+![image-20200826183521257](img/image-20200826183521257.png)
 
 
 
@@ -470,55 +470,55 @@ restful 风格的 API 设计方式：
 
 新用户注册请求
 
-![image-20200829163137641](D:/typora/appdata/image-20200829163137641.png)
+![image-20200829163137641](img/image-20200829163137641.png)
 
 响应
 
-![image-20200829162905441](D:/typora/appdata/image-20200829162905441.png)
+![image-20200829162905441](img/image-20200829162905441.png)
 
 重复注册
 
-![image-20200829163007685](D:/typora/appdata/image-20200829163007685.png)
+![image-20200829163007685](img/image-20200829163007685.png)
 
 登录
 
-![image-20200829162629398](D:/typora/appdata/image-20200829162629398.png)
+![image-20200829162629398](img/image-20200829162629398.png)
 
 响应
 
-![image-20200829162602288](D:/typora/appdata/image-20200829162602288.png)
+![image-20200829162602288](img/image-20200829162602288.png)
 
 ![image-20200829172519558](D:/typora/appdata/image-20200829172519558.png)
 
 检测登录状态
 
-![image-20200829172049378](D:/typora/appdata/image-20200829172049378.png)
+![image-20200829172049378](img/image-20200829172049378.png)
 
 
 
-![image-20200829172451305](D:/typora/appdata/image-20200829172451305.png)
+![image-20200829172451305](img/image-20200829172451305.png)
 
 
 
 不存在用户登录
 
-![image-20200829162734724](D:/typora/appdata/image-20200829162734724.png)
+![image-20200829162734724](img/image-20200829162734724.png)
 
 响应
 
-![image-20200829162754410](D:/typora/appdata/image-20200829162754410.png)
+![image-20200829162754410](img/image-20200829162754410.png)
 
 输入错误的密码登录
 
-![image-20200829163509002](D:/typora/appdata/image-20200829163509002.png)
+![image-20200829163509002](img/image-20200829163509002.png)
 
 响应
 
-![image-20200829163535571](D:/typora/appdata/image-20200829163535571.png)
+![image-20200829163535571](img/image-20200829163535571.png)
 
 输入错误的用户名登录
 
-![image-20200829163716129](D:/typora/appdata/image-20200829163716129.png)
+![image-20200829163716129](img/image-20200829163716129.png)
 
 响应
 
@@ -538,15 +538,15 @@ restful 风格的 API 设计方式：
 
 响应结果
 
-![image-20200829205433731](D:/typora/appdata/image-20200829205433731.png)
+![image-20200829205433731](img/image-20200829205433731.png)
 
 删除不存在的频道
 
-![image-20200829205552392](D:/typora/appdata/image-20200829205552392.png)
+![image-20200829205552392](img/image-20200829205552392.png)
 
 响应
 
-![image-20200829210046137](D:/typora/appdata/image-20200829210046137.png)
+![image-20200829210046137](img/image-20200829210046137.png)
 
 
 
