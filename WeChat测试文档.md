@@ -51,7 +51,7 @@
 
 ### 测试用例：
 
-![yuque_diagram](D:/typora/appdata/yuque_diagram.jpg)
+![yuque_diagram](img/yuque_diagram.jpg)
 
 
 
@@ -158,7 +158,7 @@ driver.quit();
 
 附件：
 
-![image-20200902203215220](D:/typora/appdata/image-20200902203215220.png)
+![image-20200902203215220](img/image-20200902203215220.png)
 
 实际结果：不能出现重复登录	
 
